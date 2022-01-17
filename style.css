@@ -159,17 +159,18 @@ article p, article li {
 .iconsGalleryHardSkills {
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
-  padding: 20px;
+  background-image: url("images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
 
 .iconsGalleryHardSkills img {
   height: 80px;
   width: auto;
   padding: 20px;
-  margin: 5px;
 }
 
 main aside {
