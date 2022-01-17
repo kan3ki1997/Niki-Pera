@@ -52,22 +52,23 @@ table {
 /* fine reset css */
 header {
   display: flex;
-  height: 110px;
-  width: 99%;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  padding: 10px;
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
+  height: 110px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10%;
   z-index: 10000;
 }
 
 .prova {
   display: flex;
   align-items: center;
+  margin-right: 10px;
 }
 
 .title {
@@ -90,7 +91,7 @@ header {
   height: auto;
 }
 
-.menu {
+.menu ul {
   display: flex;
   flex-wrap: wrap;
 }
@@ -101,6 +102,10 @@ header {
   color: white;
   font-family: sans-serif;
   font-size: 20px;
+}
+
+.menu ul li:last-child a{
+  margin-right: 0px;
 }
 
 @keyframes hoverMenu {
@@ -118,11 +123,10 @@ header {
   font-size: 25px;
   border-bottom: solid white 2px;
   animation-name: hoverMenu;
-  animation-duration: 0.5s;
+  animation-duration: 0.7s;
 }
 
 main {
-  display: flex;
   background-color: rgb(25, 25, 25);
   font-family: sans-serif;
   padding: 100px;
