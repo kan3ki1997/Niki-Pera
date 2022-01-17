@@ -104,7 +104,7 @@ header {
   font-size: 20px;
 }
 
-.menu ul li:last-child a{
+.menu ul li:last-child a {
   margin-right: 0px;
 }
 
@@ -144,12 +144,32 @@ main h3 {
   font-size: 23px;
   font-weight: bold;
   padding: 15px;
-  margin:15px 0px;
+  margin: 15px 0px;
   border-left: solid white 10px;
 }
 
-main strong {
+article strong {
   font-weight: bold;
+}
+
+article p, article li {
+  margin-left: 30px;
+}
+
+.iconsGalleryHardSkills {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 20px;
+  justify-content: center;
+  align-items: center
+}
+
+.iconsGalleryHardSkills img {
+  height: 80px;
+  width: auto;
+  padding: 20px;
+  margin: 5px;
 }
 
 main aside {
@@ -182,7 +202,7 @@ main aside {
   bottom: 10px;
 }
 
-footer{
+footer {
   color: white;
   display: flex;
   justify-content: center;
@@ -191,6 +211,6 @@ footer{
   background-color: black;
 }
 
-footer *{
+footer * {
   padding-right: 10px;
 }
